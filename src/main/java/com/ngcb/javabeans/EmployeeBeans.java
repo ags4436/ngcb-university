@@ -5,7 +5,7 @@ import java.util.Objects;
 
 public class EmployeeBeans implements Serializable {
 
-
+    public static int serialUid = 1254;
     private Integer empId;
     private String empName;
     private String phoneNumber;
@@ -24,7 +24,7 @@ public class EmployeeBeans implements Serializable {
         this.paid = paid;
         this.dept = dept;
     }
-
+    
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
