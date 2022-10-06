@@ -16,5 +16,9 @@ public class Main {
     System.out.println(beanInjection);
     Question beanList = (Question)applicationContext.getBean("question");
     System.out.println(beanList);
+    Shop beanSet = (Shop)applicationContext.getBean("shop");
+    System.out.println(beanSet);
+    AddressBook beanMap = (AddressBook)applicationContext.getBean("addressBook");
+    System.out.println(beanMap);
   }
 }
