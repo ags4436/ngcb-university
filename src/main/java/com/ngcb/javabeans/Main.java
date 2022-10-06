@@ -14,5 +14,7 @@ public class Main {
     System.out.println(employeeConstructorInjectionBeanObj);
     ManagerBeans beanInjection = (ManagerBeans)applicationContext.getBean("beanInjection");
     System.out.println(beanInjection);
+    Question beanList = (Question)applicationContext.getBean("question");
+    System.out.println(beanList);
   }
 }

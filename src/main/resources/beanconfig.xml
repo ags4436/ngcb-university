@@ -33,5 +33,15 @@
       <property name = "empBean" ref="setterInjectionBean"/>
    </bean>
 
+   <bean id = "question" class = "com.ngcb.javabeans.Question">
+      <property name = "id" value = "100"/>
+      <property name="Question">
+         <list>
+            <value>What is your PET name</value>
+            <value>What is your Place of Birth</value>
+         </list>
+      </property>
+
+   </bean>
 
 </beans>
