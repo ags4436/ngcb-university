@@ -1,4 +1,4 @@
-package com.ngcb.university;
+package com.ngcb.employee;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

@@ -1,4 +1,4 @@
-package com.ngcb.university;
+package com.ngcb.employee;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

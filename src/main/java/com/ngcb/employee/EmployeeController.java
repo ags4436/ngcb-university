@@ -1,4 +1,4 @@
-package com.ngcb.university;
+package com.ngcb.employee;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
