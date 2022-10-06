@@ -13,6 +13,7 @@ public class Main {
     System.out.println(employeeSetterInjectionBeanObj);
     Object employeeConstructorInjectionBeanObj = applicationContext.getBean("employeeConstructorInjectionBeanObj");
     System.out.println(employeeConstructorInjectionBeanObj);
-
+    Object beanInjection = applicationContext.getBean("beanInjection");
+    System.out.println(beanInjection);
   }
 }

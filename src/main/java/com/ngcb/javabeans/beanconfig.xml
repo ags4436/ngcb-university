@@ -23,5 +23,15 @@
       <constructor-arg name = "dept" value = "NGCB"/>
    </bean>
 
+   <!-- Bean Injection -->
+   <bean id = "beanInjection" class = "com.ngcb.javabeans.ManagerBeans">
+      <property name = "empId" value = "100"/>
+      <property name = "empName" value = "Aakash"/>
+      <property name = "phoneNumber" value = "1234567890"/>
+      <property name = "address" value = "#4 Pune"/>
+      <property name = "paid" value = "true"/>
+      <property name = "dept" value = "NGCB"/>
+      <property name = "Employee" ref="setterInjectionBean"/>
+   </bean>
 
 </beans>
