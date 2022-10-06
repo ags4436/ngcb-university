@@ -11,6 +11,7 @@ public class ManagerBeans {
     private  String address;
     private Boolean paid;
     private String dept;
+    private EmployeeBeans empBean;
 
     public ManagerBeans() {
     }
@@ -96,5 +97,13 @@ public class ManagerBeans {
 
     public void setDept(String dept) {
         this.dept = dept;
+    }
+
+    public EmployeeBeans getEmpBean() {
+        return empBean;
+    }
+
+    public void setEmpBean(EmployeeBeans empBean) {
+        this.empBean = empBean;
     }
 }
