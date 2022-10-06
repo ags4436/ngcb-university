@@ -26,6 +26,19 @@ public class ManagerBeans {
     }
 
     @Override
+    public String toString() {
+        return "ManagerBeans{" +
+                "empId=" + empId +
+                ", empName='" + empName + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                ", address='" + address + '\'' +
+                ", paid=" + paid +
+                ", dept='" + dept + '\'' +
+                ", empBean=" + empBean +
+                '}';
+    }
+
+    @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
