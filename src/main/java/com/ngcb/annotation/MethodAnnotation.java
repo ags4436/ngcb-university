@@ -5,10 +5,9 @@ import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
-@Deprecated
-@Target({ElementType.METHOD,ElementType.TYPE})
+@Target({ElementType.METHOD})
 @Retention(RetentionPolicy.SOURCE)
-public @interface MyAnnotation {
-    String message() default "No Message";
+public @interface MethodAnnotation {
+    String author() default "AGS";
 
 }
